@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+npm-debug.log*
+*-lock.json
+
+# production
+**/dist
+
+# misc
+.DS_Store
+.idea
+.vscode
+.svn
+.swc
+
+# temp
+**/.tmp
+
+# Electron
+release
+src/main/bundle.js
+src/main/bundle.js.map
+
+# VSCodeCounter
+
+.VSCodeCounter/**/details.md
+.VSCodeCounter/**/diff**
+.VSCodeCounter/**/results**
+!.VSCodeCounter/**/results.md

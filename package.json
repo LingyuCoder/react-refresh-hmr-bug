@@ -1,0 +1,40 @@
+{
+	"name": "rspack_reproduce",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev:r": "NODE_ENV=development rspack serve",
+		"dev:w": "NODE_ENV=development webpack serve"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"copy-webpack-plugin": "^12.0.2",
+		"html-webpack-plugin": "^5.6.0",
+		"lodash-es": "^4.17.21",
+		"mobx": "^6.12.0",
+		"mobx-react-lite": "^4.0.6",
+		"react": "0.0.0-experimental-14898b6a9-20240318",
+		"react-dom": "0.0.0-experimental-14898b6a9-20240318",
+		"react-router": "^6.22.3",
+		"react-router-dom": "^6.22.3",
+		"swc-loader": "^0.2.6",
+		"webpack": "^5.91.0"
+	},
+	"devDependencies": {
+		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+		"@rspack/cli": "0.5.3",
+		"@rspack/core": "0.5.3",
+		"@rspack/plugin-react-refresh": "0.5.3",
+		"@types/lodash-es": "^4.17.12",
+		"@types/node": "^20.11.30",
+		"@types/react": "^18.2.67",
+		"@types/react-dom": "^18.2.22",
+		"react-refresh": "^0.14.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.2",
+		"webpack-cli": "^5.1.4"
+	}
+}
